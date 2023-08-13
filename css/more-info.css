@@ -1,0 +1,55 @@
+.home-btn {
+    position: absolute;
+    left: 110px;
+    top: 45px;
+    height: 10px;
+
+}
+
+.back-btn{
+    position: absolute;
+    left: 100px;
+    top: 45px;
+    height: 10px;
+    background-color: red;
+    
+}
+.info {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    color: #f7f7f5;
+    background-color: rgba(66, 67, 67, 0.716);
+    border-radius: 20px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-img{
+    height: 200px;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+.add-to-fav-btn {
+    position: relative;
+    left: 140px;
+    top: 10px;
+    color: rgb(251, 247, 247);
+    background-color: rgb(228, 50, 50);
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 12rem;
+}
+.add-to-fav-btn:active{
+    color:white;
+    background-color: chocolate;
+}
+.hero-name {
+    font-size: 30px;
+}

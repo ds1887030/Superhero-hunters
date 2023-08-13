@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Superhero Hunter</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div>
+      <img class="logo" src="./images/logo.PNG" alt="Superhero logo" />
+    </div>
+    <div class="heading">
+      <h2>Superhero Hunter</h2>
+    </div>
+    <div class="btn">
+      <a href="./favpage.html">
+        <button class="fav-btn">Favourites</button>
+      </a>
+    </div>
+  </nav>
+  <!-- Searchbar Section -->
+
+  <div class="search-container">
+    <div class="search-box">
+      <input type="text" id="search-bar" placeholder="Search for Superheros" />
+      <button id="search-btn" onclick="addTask()">
+        <img src="./images/search-icon.jpg" alt="" />
+      </button>
+    </div>
+  </div>
+
+  <!-- Search results -->
+
+  <ul id="search-results">
+    <!-- <li class="single-search-result">
+      <div class="img-info">
+        <img src="${hero.thumbnail.path+'/portrait_medium.' + hero.thumbnail.extension}" alt="">
+        <div class="hero-info">
+          <a class="character-info" href="./more-info.html">
+            <span class="hero-name">${hero.name}</span>
+          </a>
+        </div>
+      </div>
+
+      
+      </li> -->
+  </ul>
+
+  <!-- External Script file -->
+  <!-- <script src="./js/script.js"></script> -->
+
+  <script src="./javascript/script.js"></script>
+
+</body>
+
+</html>
